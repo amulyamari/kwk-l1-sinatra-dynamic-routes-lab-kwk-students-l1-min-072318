@@ -17,7 +17,8 @@ end
     (params [:number].to_i).times do
     final_string += "#{params [:phrase]}"
     
-  get ''
+  get '/:operation/:number/:number2'do
+    "#{params[word1]}
     
   
 
