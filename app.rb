@@ -35,7 +35,9 @@ end
     elsif @operation = "divide"
       (@number1 / @number2).to_s
     else
-      "cannot prefor"
+      "cannot preform function"
+  end
+end
     
   
 
