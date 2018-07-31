@@ -15,7 +15,7 @@ end
   get '/say/:number/:phrase' do
     final_string = ""
     (params [:number].to_i).times do
-    phrase1= params[:phrase1]
+    final_string += "#{params [:phrase]}"
     
   
 
