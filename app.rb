@@ -18,7 +18,7 @@ end
     final_string += "#{params [:phrase]}"
     
   get '/:operation/:number/:number2'do
-    "#{params[word1]}
+    "#{params[word1]} #{params[word2]} #{params[word3]} #{params[word1]}
     
   
 
