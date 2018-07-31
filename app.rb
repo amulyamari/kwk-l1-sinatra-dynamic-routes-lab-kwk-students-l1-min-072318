@@ -17,6 +17,8 @@ end
     (params [:number].to_i).times do
     final_string += "#{params [:phrase]}"
     
+  get ''
+    
   
 
 
